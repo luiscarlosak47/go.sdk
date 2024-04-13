@@ -1,7 +1,7 @@
 export default {
   "/": {
     name: "home",
-    title: `${Go.lang("docs")} - ${Go.lang("app_name")}`,
+    title: Go.lang("app_name"),
     components: [{ target: ".app", src: Go.base("", "html/home.html") }],
   },
   "/go.sdk/demo/": () => {
