@@ -5,4 +5,5 @@ export default {
   404: "404",
   home: "Inicio",
   loading: "Loading...",
+  "404_message": "Página no encontrada",
 };
