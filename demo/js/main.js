@@ -1,5 +1,5 @@
 import "./views.js";
 
-Go.import(Go.base("", "./views.js"), (module) => {
+Go.import(Go.base("", "js/views.js"), (module) => {
   console.log(module);
 });
