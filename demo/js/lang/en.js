@@ -6,4 +6,7 @@ export default {
   home: "Home",
   loading: "Loading...",
   "404_message": "Page not found",
+  page1: "Page 1",
+  page2: "Page 2",
+  page3: "Page 3",
 };

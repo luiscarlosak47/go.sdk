@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: var(--screen-height, 100%);
+  min-height: var(--screen-height, 100vh);
 }
 
 body > .app {
