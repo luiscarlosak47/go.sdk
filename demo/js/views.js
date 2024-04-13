@@ -1,4 +1,4 @@
-Go.views({
+export default {
   "/": {
     name: "home",
     title: `${Go.lang("docs")} - ${Go.lang("app_name")}`,
@@ -9,4 +9,4 @@ Go.views({
     title: `${Go.lang("404")} - ${Go.lang("app_name")}`,
     components: [{ target: ".app", src: Go.base("", "html/404.html") }],
   },
-});
+};
