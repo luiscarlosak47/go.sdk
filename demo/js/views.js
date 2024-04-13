@@ -7,6 +7,9 @@ export default {
   "/go.sdk/demo/": () => {
     return Go.do("nav/getRouteByName", "home");
   },
+  "/go.sdk/demo/index.html": () => {
+    return Go.do("nav/getRouteByName", "home");
+  },
   404: {
     name: "404",
     title: `${Go.lang("404")} - ${Go.lang("app_name")}`,
