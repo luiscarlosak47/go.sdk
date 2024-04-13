@@ -8,7 +8,9 @@ Go.import(Go.base("", "js/views.js"), async (views) => {
   const lang = Go.lang().current() || Go.config("appLang");
 
   // Load translations
-  await Go.import(Go.base("", "js/lang/" + lang + ".js"));
+  await Go.import(Go.base("", "js/lang/" + lang + ".js"), (language) => {
+    Go.lang(language);
+  });
 
   // Load views/routes
   Go.views(views);
