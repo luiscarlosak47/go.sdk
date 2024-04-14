@@ -19,3 +19,8 @@ body > .app {
   max-width: 980px;
   margin: 0 auto;
 }
+
+.pagesButtons {
+  display: flex;
+  gap: var(--gap);
+}
