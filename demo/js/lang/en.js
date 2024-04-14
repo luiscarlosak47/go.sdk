@@ -9,4 +9,6 @@ export default {
   page1: "Page 1",
   page2: "Page 2",
   page3: "Page 3",
+  home_page: "Home Page",
+  home_page_message: "This is the home page demo of Go.js",
 };
