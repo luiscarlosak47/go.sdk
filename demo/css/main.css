@@ -20,8 +20,22 @@ body > .app {
   margin: 0 auto;
 }
 
+.pageContent:is(h1)::first-letter {
+  text-transform: uppercase;
+}
+
 .pagesButtons {
   display: flex;
   justify-content: center;
   gap: var(--gap);
+}
+
+.pagesButtons .link {
+  display: inline-block;
+  padding: calc(var(--gap) * 0.25) calc(var(--gap));
+  border-radius: 2pc;
+}
+
+.pagesButtons .link.active {
+  background-color: var(--primary-color);
 }
