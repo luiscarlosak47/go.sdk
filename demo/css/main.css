@@ -22,5 +22,6 @@ body > .app {
 
 .pagesButtons {
   display: flex;
+  justify-content: center;
   gap: var(--gap);
 }
