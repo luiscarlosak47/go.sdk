@@ -37,6 +37,10 @@ body > .app {
   border: solid 1px var(--border-color);
 }
 
+.pagesButtons .link:hover {
+  background-color: var(--border-color);
+}
+
 .pagesButtons .link.active {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
