@@ -1,0 +1,12 @@
+{
+  "name": "go-sdk-demo",
+  "version": "1.0.0",
+  "description": "Go JS SDK",
+  "main": "go.min.js",
+  "scripts": {
+    "push": "git add . && git commit -m 'Update' && git push"
+  },
+  "author": "Luis Carlos Hurtado",
+  "license": "MIT",
+  "dependencies": {}
+}
