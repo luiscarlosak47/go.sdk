@@ -2,10 +2,10 @@
   <div tcenter animation="fadeIn">
     <div class="logo" img circle style="--size: 200px; --img: url(${Go.config('appIcon')}); --size-mbl: 120px"></div>
     <go-spacer num="2"></go-spacer>
+    <h4 class="num404" font-gradient fw900 f250>${Go.lang('page2')}</h4>
     <div class="pageContent">
-      <h4 class="num404" font-gradient fw900 f250>${Go.lang('page2')}</h4>
+      <h1 opacity="0.6">${Go.lorem(10)}</h1>
     </div>
-    <h1 opacity="0.6">${Go.lorem(10)}</h1>
     <go-spacer num="2"></go-spacer>
     <go-component src="${Go.base('', 'html/pages.menu.html')}"></go-component>
   </div>
