@@ -14,3 +14,8 @@ body > .app {
   justify-content: center;
   align-items: center;
 }
+
+.pageContent {
+  max-width: 980px;
+  margin: 0 auto;
+}
