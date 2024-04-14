@@ -34,8 +34,10 @@ body > .app {
   display: inline-block;
   padding: calc(var(--gap) * 0.25) calc(var(--gap));
   border-radius: 2pc;
+  border: solid 1px var(--border-color);
 }
 
 .pagesButtons .link.active {
   background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
