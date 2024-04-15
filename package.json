@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Go JS SDK",
   "main": "go.min.js",
-  "scripts": {
-    "push": ""
-  },
+  "scripts": {},
   "author": "Luis Carlos Hurtado",
   "license": "MIT",
   "dependencies": {}
